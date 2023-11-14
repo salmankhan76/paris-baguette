@@ -1,0 +1,29 @@
+
+.pb-applyown-hdg {
+    font-size: 32px;
+}
+.apply-own-form input, .apply-own-form select, .apply-own-form label{
+    font-family: 'Baskervville', serif !important;
+}
+.apply-own-form label {
+    font-size: 18px;
+}
+.apply-own-form input::placeholder, .apply-own-form select::placeholder{
+    color: #000;
+    opacity: 0.5;
+}
+
+.apply-own-form [type="radio"]:checked + label:after {
+    background-color: #081d5c !important;
+    border: 2px solid #081D5C;
+}
+
+
+@media screen and (max-width: 767px) {
+    .pb-applyown {
+        padding: 0px 20px;
+    }
+    .pb-applyown-hdg {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,67 @@
+.pb-hero-banner {
+    background-image: url("../../../assets/images/hero-banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pb-hero-con {
+    padding: 70px 6%;
+    margin: 0px auto;
+    display: flex;
+}
+.pb-hero-body {
+    width: 35%;
+    padding-right: 5%;
+    padding-top: 40px;
+}
+.pb-hero-media {
+    width: 65%;
+}
+.pb-hero-body h3 {
+    font-family: 'Special Elite',sans-serif;
+    padding-bottom: 10px;
+    font-size: 34px;
+    line-height: normal;
+}
+.pb-hero-body p, .pb-hero-body a {
+    font-family: 'Baskervville', serif;
+    padding-bottom: 0;
+    display: inline-block;
+    font-size: 24px;
+    line-height: normal;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+.pb-hero-body h3, .pb-hero-body p {
+    color: #fff;
+}
+.pb-hero-body a {
+   color: #F6C844;
+}
+.videoplayer {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 767px) {
+    .videoplayer {
+        width: 100%;
+        height: 100%;
+    }
+    .pb-hero-con {
+        padding: 50px 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .pb-hero-body, .pb-hero-media {
+        width: 100%;
+        padding: 0px;
+    }
+    .pb-hero-body h3 {
+        font-size: 24px;
+    }
+    .pb-hero-body p, .pb-hero-body a {
+        font-size: 20px;
+    }
+}

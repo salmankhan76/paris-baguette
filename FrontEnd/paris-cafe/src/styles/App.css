@@ -1,0 +1,5 @@
+.maplocate path:hover {
+    fill: black !important;
+    transition: 1s all;
+    cursor: pointer;
+}

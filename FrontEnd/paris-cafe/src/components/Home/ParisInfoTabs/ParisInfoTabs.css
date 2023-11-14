@@ -1,0 +1,95 @@
+
+.paris-info-tabs-main {
+    width: 100%;
+    background-image: url("../../../assets/images/Our-Products.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paris-info-tabs {
+    width: 100%;
+    background-color: rgb(255 255 255 / 54%);
+    padding: 22px 0px;
+}
+
+.pit-wrap ul, 
+.pit-invest-wrap ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pit-wrap ul li {
+   border-right: 2px solid #081D5C;
+   line-height: normal;
+   position: relative;
+   padding: 0 10px;
+   display: inline-block;
+}
+.pit-wrap ul li:last-child {
+    border-right-width: 0px;
+}
+.pit-invest-wrap ul li {
+    line-height: normal;
+    position: relative;
+    padding: 0 10px;
+    display: inline-block;
+}
+.pit-invest-wrap ul li:first-child {
+    border-right: 2px solid #ffffffbc;
+}
+.pit-wrap ul li span, 
+.pit-invest-wrap ul li span {
+    font-family: 'Baskervville',serif;
+    font-style: normal;
+    padding: 5px 12px;
+    font-size: 22px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #081D5C;
+    font-weight: 400;
+    letter-spacing: 0;
+    cursor: pointer;
+}
+.pit-invest-wrap ul li span {
+    color: #fff;
+}
+.pit-wrap ul li span.active, 
+.pit-invest-wrap ul li span.active {
+    color: #F6C844;
+    font-weight: 600;
+}
+.tc-media {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.tc-media img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.tc-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px) { 
+    .paris-info-tabs {
+        width: 95%;
+        margin: 0px auto;
+    }
+    .pit-wrap ul, .pit-invest-wrap ul {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .pit-wrap ul li, .pit-invest-wrap ul li:first-child {
+        border-right-width: 0px;
+    }
+}

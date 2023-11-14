@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "investments",
+  "info": {
+    "singularName": "investment",
+    "pluralName": "investments",
+    "displayName": "investment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "franchise_fee": {
+      "type": "string"
+    },
+    "initial_investment": {
+      "type": "string"
+    },
+    "liquidity_requirement": {
+      "type": "string"
+    },
+    "how_much_make": {
+      "type": "string"
+    }
+  }
+}
